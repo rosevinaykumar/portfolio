@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="80">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -28,6 +28,9 @@
       <div id="logo">
         <img src="" alt="" />
       </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
       <nav class="nav">
         <ul class="nav__list">
             <li class="nav__item">
@@ -55,49 +58,134 @@
       <p class="section__subtitle section__subtitle--intro">
         Full Stack Developer
       </p>
-      <img src="./images/IMG_0250.JPG" alt="" />
+      <img src="./images/IMG_0250.JPG" alt="" class="intro__img"/>
+    </section>
+
+    <!-- My services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Frontend Dev</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dignissimos! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, officiis?</p>
+        </div>
+        <div class="service">
+          <h3>Backend Dev</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, error. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, consequuntur?</p>
+        </div>
+      </div>
+      <!--<a href="#work" class="btn">My Work</a>-->
     </section>
 
     <!-- About me-->
     <section class="about-me" id="about">
       <h2 class="section__title section__title--about">Who I am</h2>
-      <p class="section__subtitle section__subtitle--about"></p>
+      <p class="section__subtitle section__subtitle--about">Software Developer</p>
       <div class="about-me__body">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
           distinctio ad? Magnam enim vero voluptas optio fuga natus quae eius
           veritatis provident ipsum, vitae, ab beatae dicta! Possimus deserunt,
-          voluptatum itaque hic illo corrupti ea necessitatibus quaerat beatae
+          voluptatum itaque ic illo corrupti ea necessitatibus quaerat beatae
           iste velit enim eligendi cumque ullam, quibusdam est nihil soluta sint
           dolore.
         </p>
       </div>
+      <img src="./images/about.jpg" alt="about image" class="about-me__img">
     </section>
 
-    <!-- My services-->
-    <section class="my-services" id="services">
-      <h2 class="section__title section__subtitle--services">What I do</h2>
-      <div class="services">
-        <div class="service">
-          <h3>Lorem, ipsum.</h3>
-        </div>
-        <div class="service">
-          <h3>Lorem, ipsum.</h3>
-        </div>
-      </div>
-      <a href="http://#work" class="btn"></a>
-    </section>
-
-    <!-- My work -->
+    <!-- My work 
+    
     <section class="my-work" id="work">
       <h2 class="section__title section__title--work">Experience</h2>
       <p class="section__subtitle section__subtitle--work"></p>
-      <div class="portfolio"></div>
+      <div class="portfolio">
+        <h3>CGI: </h3><h4>Luxembourg, Luxembourg</h4>
+        <p>Technical Expert</p>
+        <h3>Mentes Services: </h3><h4>Milan, Italy</h4>
+        <p>Senior Software Developer</p>
+        <h3>Sorint Labs: </h3> <h4>Bergamo, Italy</h4>
+        <p>Senior Software Developer</p>
+        <h3>kubepartner:</h3><h4>Monza, Italy</h4>
+        <p>Software Developer</p>
+        <h3>Kclink Technologies:</h3> <h4>Hyderabad, India</h4>
+        <p>Software Developer</p>
+      </div>
     </section>
-
+-->
     <!-- My skills -->
     <section class="my-skills" id="skills">
-        <h2 class="section__title section__title--skills">Skills</h2>
+        <h2 class="section__title section__title--skills">Technical Stack</h2>
+        <div class="my-skills__body">
+          <li>
+            <h3>ANGULAR</h3>
+            <span class="skill">
+              <span class="angular">70%</span>
+            </span>
+          </li>
+          <li>
+            <h3>HTML</h3>
+            <span class="skill">
+              <span class="html">90%</span>
+            </span>
+          </li>
+          <li>
+            <h3>CSS</h3>
+            <span class="skill">
+              <span class="css">80%</span>
+            </span>
+          </li>
+          <li>
+            <h3>JAVASCRIPT</h3>
+            <span class="skill">
+              <span class="javascript">80%</span>
+            </span>
+          </li>
+          <li>
+            <h3>JAVA</h3>
+            <span class="skill">
+              <span class="java">75%</span>
+            </span>
+          </li>
+          <li>
+            <h3>SPRING MVC</h3>
+            <span class="skill">
+              <span class="springmvc">60%</span>
+            </span>
+          </li>
+          <li>
+            <h3>SPRING BOOT</h3>
+            <span class="skill">
+              <span class="springboot">50%</span>
+            </span>
+          </li>
+        </div>
     </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="mailto:@rosevinaykumar@yahoo.com" class="social-list__link">
+            <i class="far fa-envelope"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://" class="social-list__link">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://" class="social-list__link">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://" class="social-list__link">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  <script src="./js/index.js"></script>
   </body>
 </html>

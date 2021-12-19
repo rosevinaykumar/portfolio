@@ -7,8 +7,8 @@
 /* CSS Customized properties */
 
 :root {
-  --ff-primary: "Source Sans Pro", sans-serif;
-  --ff-secondary: "Source Sans Pro", monospace;
+  --ff-primary: "Lora", sans-serif;
+  --ff-secondary: "Roboto Slab", sans-serif;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -200,7 +200,6 @@ header {
   border-radius: 1em;
   transition: transform 250ms ease-in-out;
 }
-
 .hamburger::before,
 .hamburger::after {
   content: "";
@@ -208,7 +207,6 @@ header {
   left: 0;
   right: 0;
 }
-
 .hamburger::before {
   top: 6px;
 }
@@ -223,6 +221,7 @@ header {
 }
 .nav-open .hamburger::after {
   opacity: 0;
+  background: transparent;
 }
 
 /* intro section*/
@@ -304,6 +303,7 @@ header {
 /* About section */
 .about-me {
   position: relative;
+  text-align: justify;
 }
 @media (min-width: 600px) {
   .about-me {
@@ -355,6 +355,7 @@ header {
   list-style: none;
   background-image: url("../images/portfolio.jpg");
   color: var(--clr-light);
+  background-blend-mode: soft-light;
 }
 .my-skills__body li {
   margin: 20px 0;
